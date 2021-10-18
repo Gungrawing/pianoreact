@@ -107,7 +107,6 @@ function App() {
                 <button className="piano-notes" onClick={() => audioDo.play()}>DOF</button>
             </div>
             <div className="div-plus">
-                {/*Count: {state.count = null};*/}
                 <button className="plus plus-do" onClick={() => dispatch({type: 'bindDo'})} >+</button>
                 <button className="plus"  onClick={() => dispatch({type: 'bindRe'})}>+</button>
                 <button className="plus" onClick={() => dispatch({type: 'bindMi'})}>+</button>
@@ -127,20 +126,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-// const [plusDo,setPLusDo] = useState("")
-//
-// window.addEventListener('keydown', function(ev){
-//     setPLusDo(ev.key)
-// });
-//
-// const testState = () => {
-//     console.log(plusDo) }
-// useEffect(
-//     window.addEventListener('keydown', function(ev) {
-//         setNoteDo(ev.key)
-//     }))
